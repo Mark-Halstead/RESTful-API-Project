@@ -23,7 +23,7 @@ const articleSchema = {
 
 const Article = mongoose.model("Article", articleSchema);
 
-///////////////////////////////////Requests Targetting all Articles////////////////////////
+
 
 app.route("/articles")
 
@@ -63,8 +63,6 @@ app.route("/articles")
     }
   });
 });
-
-////////////////////////////////Requests Targetting A Specific Article////////////////////////
 
 app.route("/articles/:articleTitle")
 
